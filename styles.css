@@ -299,7 +299,7 @@ button i {
   }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 370px) {
   .container {
     padding: 100px 20px;
   }
