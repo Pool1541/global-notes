@@ -64,7 +64,6 @@ signupButton.addEventListener('click', e=> {
     signupForm.reset();
     signupModal.classList.add('hide');
   });
-
 });
 
 
