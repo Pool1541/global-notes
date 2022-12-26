@@ -98,6 +98,7 @@ function newNoteEvent(e){
       input.autocomplete = 'off';
       newNoteForm.insertBefore(input, document.querySelector('#create-note-content'));
       newNoteTitle = document.querySelector('#create-note-title');
+      newNoteTitle.focus();
     }
   } else {
     if(!newNoteForm.contains(e.target)){
